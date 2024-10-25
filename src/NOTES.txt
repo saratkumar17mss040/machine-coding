@@ -68,6 +68,7 @@ Plan:
 profile page view - done
 profile form - done
 profile update - done
+profile form err - similar to registration form err approach
 
 Data modeling:
 
