@@ -65,7 +65,9 @@ Plan:
 <ProfileForm />
 <ProfileView />
 
-
+profile page view - done
+profile form - done
+profile update - done
 
 Data modeling:
 
