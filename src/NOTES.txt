@@ -1,0 +1,84 @@
+Feature 4:
+
+Task management with drag-and-drop functionality and real-time updates.
+
+add todo - done
+update todo - done 
+toggling edit mode - done
+delete todo - done
+
+Plan:
+
+<TodoApp/>
+<TodoInput />
+<TodoList />
+    <Todo />
+
+Data modeling:
+
+todos - [
+    {
+        id,
+        todo,
+        isEditModeOn
+    }
+] 
+
+currTodo - todo item - string
+editTodo
+
+
+Feature 1:
+
+Implement a user registration form with authentication. Describe and implement the data validations you will use for user inputs (e.g., email, password, username).
+
+Plan:
+
+<RegistrationForm />
+
+Data modeling:
+
+Form state  - {
+    userName: "",
+    password: "",
+    email: "",
+}
+
+Form errors - {
+    userName: "err msg",
+    ....
+}
+
+basic form fields - done
+html validation - done
+js validation - done
+ui view error - done
+
+Feature 3: User Profiles
+
+Implement a user profile page where users can update their information (e.g., name, profile picture, bio). 
+Describe your approach for validating and storing user data.
+
+Plan:
+
+<ProfilPage>
+<ProfileForm />
+<ProfileView />
+
+
+
+Data modeling:
+
+profileForm - {
+    name: "",
+    profilePic: "",
+    bio: ""
+}
+
+profileFormErrs - {
+    name: "",
+    profilePic: "",
+    bio: "" 
+}
+
+
